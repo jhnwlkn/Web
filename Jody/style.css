@@ -1,0 +1,291 @@
+:root{
+	--primaryColor: #282A3A;
+	--secondaryColor: #C69749;
+
+	--mainFont: 'Open Sans', sans-serif;
+	--headingFont: 'Merriweather', serif;
+}
+
+*{
+	box-sizing: border-box !important;
+	text-decoration: none !important;
+}
+
+body{
+	font-family: var(--mainFont);
+}
+
+.heading{
+	font-family: var(--headingFont);
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.subheading{
+	font-weight: 300;
+}
+
+.navbar{
+	background-color: var(--primaryColor) !important;
+}
+
+.navbar-brand{
+	font-family: var(--headingFont);
+	font-weight: 900;
+}
+
+.navbar-brand span{
+	color: var(--secondaryColor);
+}
+
+.nav-link{
+	font-family: var(--headingFont);
+}
+
+.nav-link.active{
+	font-weight: 700;
+	color: var(--secondaryColor) !important;
+}
+
+.icons-home i{
+	font-size: 1.6rem;
+	color: var(--secondaryColor);
+}
+
+.home{
+	background-color: var(--primaryColor);
+	height: 500px;
+	padding-top: 10rem;
+}
+
+.home .heading{
+	color: var(--secondaryColor);
+	padding-top: 100px;
+}
+
+.btn-home{
+	font-family: var(--headingFont);
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.home .gambar{
+	height: 300px;
+}
+
+.home img{
+	padding-top: 10rem;
+}
+
+.btn-home .btn-buy{
+	background-color: var(--secondaryColor);
+}
+
+.btn-home .btn-learn{
+	border: 2px solid var(--secondaryColor);
+	color: var(--secondaryColor);	
+}
+
+.service{
+	height: 650px;
+	padding-top: 8rem;
+}
+
+.service .heading{
+	color: var(--secondaryColor);
+}
+
+.service .ser1{
+	background-color: var(--primaryColor);
+	color: white;
+	padding: 20px;
+}
+
+.ser1 .label{
+	margin-bottom: 2px;
+}
+
+.ser1 .heading{
+	font-size: 25px;
+}
+
+.ser1 .btn-card{
+	border: 2px solid var(--secondaryColor);
+	color: var(--secondaryColor);
+	margin-top: 10px;
+}
+
+.btn-card a{
+	color: var(--secondaryColor);
+	font-family: var(--headingFont);
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.ser1 .img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.service .boxbot{
+	margin-top: 5rem;
+	background-color: var(--primaryColor);
+	color: white;
+	padding: 10px;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+.boxbot p{
+	margin-bottom: 0%;
+}
+
+.boxbot .btn-card{
+	border: 2px solid var(--secondaryColor);
+	color: var(--secondaryColor);
+	font-family: var(--mainFont);
+	margin-top: 10px;
+}
+
+.boxbot .textbox{
+	padding: 30px;
+	padding-left: 50px;
+}
+
+.boxbot img{
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 130px;
+}
+
+.order{
+	height: 650px;
+	padding-top: 8rem;
+}
+
+.order .formOrder{
+	padding-left: 5rem;
+}
+
+.order h1{
+	font-family: var(--headingFont);
+	color: var(--primaryColor);
+	height: auto;
+	font-size: 50px;
+}
+
+.order p{
+	font-family: var(--mainFont);
+	color: var(--secondaryColor);
+	background-color: var(--primaryColor);
+	padding: 5px;
+	border-radius: 3px;
+	border: 2px solid var(--secondaryColor);
+}
+
+.order .heading span{
+	color: #C69749;
+}
+
+.order form {
+	width: 50%;
+	padding: 20px;
+	margin-right: 0%;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	font-family: var(--mainFont);
+}
+  
+label {
+	display: block;
+	margin-top: 20px;
+	font-weight: bold;
+}
+  
+input, textarea, select {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #f2f2f2;
+	font-size: 16px;
+}
+  
+input[type="submit"] {
+	background-color: var(--primaryColor);
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: var(--mainFont);
+}
+  
+input[type="submit"]:hover {
+	background-color: var(--secondaryColor);
+}
+  
+select option:first-child {
+	color: gray;
+}
+
+.kontak{
+	height: 650px;
+	padding-top: 22rem;
+}
+
+.kontak .textkon{
+	background-color: var(--primaryColor);
+	color: white;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	text-align: center;
+}
+
+.textkon h1{
+	font-family: var(--headingFont);
+	color: var(--secondaryColor);
+	padding-bottom: 0%;
+}
+
+.textkon p{
+	padding: 0;
+	font-family: var(--mainFont);
+	margin-bottom: 0;
+}
+
+.textkon a{
+	font-size: 2rem;
+	color: var(--secondaryColor);
+	padding: 0%;
+}
+
+footer {
+	margin-top: 650px;
+	background-color: var(--primaryColor);
+	color: white;
+	padding: 20px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+footer p{
+	padding: 0;
+	margin-bottom: 0.3rem;
+}
+  
+footer a {
+	color: var(--secondaryColor);
+	font-size: 1.6rem;
+}
+
+footer span{
+	color: var(--secondaryColor);
+}

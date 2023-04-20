@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+	<link rel="shortcut icon" href="jpg/Logo.png" type="img/png"> 
+    <title>Jody | Order</title>
+	
+
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top py-2">
+			<div class="container">
+				<a class="navbar-brand" href=""><span>JO</span>DY</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+				<div class="navbar-nav me-4">
+				  <a class="nav-link me-3" href="index.html">Home</a>
+				  <a class="nav-link me-3" href="Service.html">Services</a>
+				  <a class="nav-link active me-3" href="Order.html">Order</a>
+				  <a class="nav-link" href="kontak.html" tabindex="-1">Contact</a>
+				</div>
+				<div class="icons-home nav-link">
+					<a href="#"><i class='bx bx-user'></i></box-icon></a>
+				</div>
+			  </div>
+			</div>
+		  </nav>
+	</header>
+
+	<section class="order" id="order">
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<img src="jpg/3.png" height="435px" alt="">
+				</div>
+				<div class="col-8 formOrder">
+					<h1 class="heading"><span>Order</span> Services</h1>
+					<p class="subheading">Please fill in according to your needs</p>
+					<form action="Order.html" method="post">
+						<label for="nama">Name</label>
+						<input type="text" id="nama" name="nama" required>
+						<br>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required>
+						<br>
+						<label for="layanan">Service Type</label>
+						<select id="layanan" name="layanan" required>
+							<option value="">Select Service Type</option>
+							<option value="">Introductory Programming</option>
+							<option value="">Progression Programming</option>
+							<option value="">Advancing Programming</option>
+						</select>
+						<br>
+						<label for="deskripsi">Description</label>
+						<textarea id="deskripsi" name="deskripsi" required></textarea>
+						<br>
+						<label for="budget">Budget</label>
+						<input type="number" id="budget" name="budget" required>
+						<br>
+						<label for="tanggal">Due Date</label>
+						<input type="date" id="tanggal" name="tanggal" required>
+						<br>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 Copyright: jodyin.site</p>
+      	<p>Design by <span>Joo</span></p>
+		<a href="https://www.instagram.com/jody.in/"><i class='bx bxl-instagram'></i></a>
+		<a href="https://wa.me/6285377741821"><i class='bx bxl-whatsapp' ></i></a>
+		<a href="https://twitter.com/johnorjoey?t=kijzwJ3GUvWSftUvfJzQOg&s=09"><i class='bx bxl-twitter' ></i></a>
+	</footer>
+	
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
