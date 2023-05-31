@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  position: relative;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  padding: 18px 50px;
+  transition: all 0.5s;
+}
+
+.logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-right: 200px;
+}
+
+.logo span {
+  font-size: 40px;
+  color: #fd6438;
+}
+
+.navlist {
+  display: flex;
+}
+
+.navlist ul {
+  margin-bottom: 0;
+}
+
+.navlist a {
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 4px 5px;
+  margin: 0 22px;
+  transition: all 0.42s;
+}
+
+.navlist a:hover {
+  color: #d3d3d3;
+}
+
+.content-log {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #184c99;
+}
+
+.form-login {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100% - 58%);
+  height: 100%;
+  background-color: #fff;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formbox-login {
+  height: 500px;
+  width: 450px;
+  padding: 10px;
+}
+
+.formbox-login h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.formbox-login .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: #f6f6f6;
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  color: #737373;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.formbox-login .remember-forgot {
+  font-size: 12px;
+  font-weight: 500;
+  margin: -15px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.formbox-login .remember-forgot span {
+  color: #184c99;
+}
+
+.formbox-login .btn {
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+.dont-have {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.dont-have span {
+  font-weight: 700;
+}
+
+.content-img {
+  padding-top: 260px;
+  width: 58%;
+  height: 100%;
+}
+.content-img img {
+  object-position: bottom;
+  width: 100%;
+}
+
+.desc-sign {
+  font-size: 14px;
+}
